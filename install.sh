@@ -133,7 +133,6 @@ on_install() {
   # The following is the default implementation: extract $ZIPFILE/system to $MODPATH
   # Extend/change the logic to whatever you want
   ui_print "- Extracting module files"
-  mkdir "$MODPATH/system/vendor/overlay" >&2
   unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
 }
 
