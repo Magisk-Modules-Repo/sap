@@ -15,9 +15,13 @@ Adds some system accent theme colors to your android P custom rom. Files are pus
   $ mkdir /system/vendor/overlay
   $ chcon u:object_r:vendor_overlay_file:s0 /system/vendor/overlay
   ```
+  These are needed due to a change in Magisk v19.1 that prevents the module from creating new folders on the /system or /vendor partition. If the overlay folder does not already exist, these commands will create it.
+
 - If stuck at boot, simply reboot once and see if boot resumes
+
 - If boot fails again, please provide device and Magisk logs
 
 ## Credits
 - [topjohnwu](https://forum.xda-developers.com/member.php?u=4470081) for Magisk and its module template
+
 - [LudwigVan33](https://github.com/LudwigVan33) for his work on the original module
