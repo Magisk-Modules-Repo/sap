@@ -121,6 +121,8 @@ REPLACE="
 
 # Set what you want to display when installing your module
 
+[ $API -eq 28 ] || abort "! This module requires Android Pie. Aborting!"
+
 print_modname() {
   ui_print "********************************"
   ui_print "System Accent Theme Colors for P"
