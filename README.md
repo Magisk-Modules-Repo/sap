@@ -4,6 +4,8 @@
 Adds some system accent theme colors to your android P custom rom. Files are pushed to /system/overlay.
 
 ## Changelog
+- v1.2
+  - Use /system/app instead of /vendor/overlay
 - v1.1
   - Update to use the new Magisk Module Installer Template
 - v1.0 
