@@ -1,7 +1,7 @@
 # **System Accent Theme Colors for P**
 
 ## Description
-Adds some system accent theme colors to your android P custom rom. Files are pushed to /system/overlay.
+Adds some system accent theme colors to your android P custom rom. Files are pushed to /system/app.
 
 ## Changelog
 - v1.2
