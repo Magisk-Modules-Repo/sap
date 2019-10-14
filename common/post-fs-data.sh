@@ -7,14 +7,3 @@
 MODDIR=${0%/*}
 
 # This script will be executed in post-fs-data mode
-
-busybox mount -o rw,remount /vendor
-
-if [ ! -d /vendor/overlay ]
-then
-    mkdir /vendor/overlay
-    chmod 0755 /vendor/overlay
-    chcon u:object_r:vendor_overlay_file:s0 /vendor/overlay
-fi
-
-busybox mount -o ro,remount /vendor
