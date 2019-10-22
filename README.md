@@ -1,7 +1,7 @@
 # **System Accent Colors**
 
 ## Description
-Adds some system accent colors to your Android 10 custom rom.
+Adds some System Accent Colors to your Android 10 custom rom.
 
 ## Changelog
 - v2.0
