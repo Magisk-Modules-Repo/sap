@@ -28,7 +28,7 @@ SKIPMOUNT=false
 PROPFILE=false
 
 # Set to true if you need post-fs-data script
-POSTFSDATA=false
+POSTFSDATA=true
 
 # Set to true if you need late_start service script
 LATESTARTSERVICE=false
@@ -121,11 +121,11 @@ REPLACE="
 
 # Set what you want to display when installing your module
 
-[ $API -eq 28 ] || abort "! This module requires Android Pie. Aborting!"
+[ $API -eq 29 ] || abort "! This module requires Android 10. Aborting!"
 
 print_modname() {
   ui_print "********************************"
-  ui_print "System Accent Theme Colors for P"
+  ui_print "System Accent Theme Colors for Q"
   ui_print "********************************"
 }
 
