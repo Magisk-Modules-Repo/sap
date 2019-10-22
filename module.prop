@@ -1,6 +1,6 @@
-id=sap
-name=System Accent Theme (Colors) for Q
+id=sac
+name=System Accent Colors
 version=v2.0
 versionCode=20
 author=ponces
-description=Simple module to add some system accent theme colors to your Android 10 custom rom.
+description=Simple module to add some System Accent Colors to your Android 10 custom rom.

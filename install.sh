@@ -125,7 +125,7 @@ REPLACE="
 
 print_modname() {
   ui_print "********************************"
-  ui_print "System Accent Theme Colors for Q"
+  ui_print "      System Accent Colors      "
   ui_print "********************************"
 }
 
