@@ -1,7 +1,7 @@
-# **System Accent Theme Colors for P**
+# **System Accent Colors**
 
 ## Description
-Adds some system accent theme colors to your Android 10 custom rom.
+Adds some system accent colors to your Android 10 custom rom.
 
 ## Changelog
 - v2.0
