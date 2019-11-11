@@ -1,9 +1,12 @@
 # **System Accent Theme Colors for P**
 
 ## Description
-Adds some system accent theme colors to your android P custom rom. Files are pushed to /vendor/overlay.
+Adds some system accent theme colors to your android P custom rom.
+Files are pushed to /vendor/overlay.
 
 ## Changelog
+- v1.2
+  - Add Pale Blue overlay color
 - v1.1
   - Update to use the new Magisk Module Installer Template
 - v1.0 
